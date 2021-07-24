@@ -22,8 +22,6 @@ https://vvnnzar.github.io/MBC20-React-Portfolio/
 
 This development was completed in part using the following online references:
 
-Using the above information lets go back to our regex email example and look at it further:
-
     https://youtu.be/
 
 ### Installation
