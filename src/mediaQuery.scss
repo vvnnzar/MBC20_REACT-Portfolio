@@ -1,0 +1,9 @@
+/* Media Queries*/
+
+$mobileWidth: 800px;
+
+@mixin mobile {
+  @media (max-width: #{$mobileWidth}) {
+    @content;
+  }
+}

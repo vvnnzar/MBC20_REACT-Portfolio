@@ -1,0 +1,58 @@
+@import "../../mediaQuery.scss";
+
+.contactWrapper {
+  height: 100%;
+  background-color: #131316;
+  overflow: hidden;
+  padding: 20px;
+
+  h1 {
+    align-content: center;
+    justify-content: center;
+    color: #ffde59;
+  }
+  h3 {
+    font-size: 12px;
+  }
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  box-shadow: 10px 10px 75px rgba(0, 0, 0, 0.596);
+  height: 500px;
+  width: 80%;
+  align-content: center;
+  justify-content: center;
+
+  @include mobile {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 400px;
+  }
+}
+
+.box {
+  display: grid;
+  margin-top: 1rem;
+  align-content: center;
+  justify-content: center;
+
+  a {
+    margin-top: 3rem;
+    align-content: centre;
+    font-size: 12px;
+    @include mobile {
+      font-size: 10px;
+      padding: 5px;
+    }
+  }
+
+  i {
+    margin: auto;
+    font-weight: 200;
+    font-size: 40px;
+  }
+}

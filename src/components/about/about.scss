@@ -1,0 +1,82 @@
+@import "../../mediaQuery.scss";
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  text-align: justify;
+  align-content: center;
+  background-color: #08080a;
+
+  grid_item:first-child {
+    grid-column: 2 / 3; /* span from grid column line 1 to 3 (i.e., span 2 columns) */
+  }
+
+  @include mobile {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: 100%;
+  }
+
+  img {
+    height: 800px;
+    width: 810px;
+    object-fit: cover;
+    @include mobile {
+      height: 180px;
+      width: 180px;
+      object-fit: cover;
+    }
+  }
+}
+
+.aboutContent {
+  padding: 5px;
+  margin: 5px, 5px;
+  align-items: center;
+  width: 90%;
+  height: 70%;
+  background-color: #08080a;
+  color: white;
+  @include mobile {
+    background-color: #08080a;
+    height: 100%;
+    padding: 0px 2px;
+    align-items: centre;
+  }
+
+  h1 {
+    // padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffde59;
+    margin-top: 80px;
+    @include mobile {
+      font-size: 20px;
+      margin-top: 50px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    padding: 14px 40px;
+    color: white;
+    background-color: black;
+    @include mobile {
+      display: flex;
+      font-size: 10px;
+      margin: -4px -12px;
+      // text-align: justify;
+    }
+  }
+
+  .signOff {
+    font-family: "Fuggles", cursive;
+    font-size: 40px;
+    float: right;
+    color: #ffde59;
+    @include mobile {
+      font-size: 20px;
+      float: right;
+    }
+  }
+}
