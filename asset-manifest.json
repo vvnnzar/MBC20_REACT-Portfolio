@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MBC20_REACT-Portfolio/static/css/main.88f086ee.chunk.css",
+    "main.js": "/MBC20_REACT-Portfolio/static/js/main.274d2c2f.chunk.js",
+    "main.js.map": "/MBC20_REACT-Portfolio/static/js/main.274d2c2f.chunk.js.map",
+    "runtime-main.js": "/MBC20_REACT-Portfolio/static/js/runtime-main.1976e157.js",
+    "runtime-main.js.map": "/MBC20_REACT-Portfolio/static/js/runtime-main.1976e157.js.map",
+    "static/js/2.f685c213.chunk.js": "/MBC20_REACT-Portfolio/static/js/2.f685c213.chunk.js",
+    "static/js/2.f685c213.chunk.js.map": "/MBC20_REACT-Portfolio/static/js/2.f685c213.chunk.js.map",
+    "index.html": "/MBC20_REACT-Portfolio/index.html",
+    "static/css/main.88f086ee.chunk.css.map": "/MBC20_REACT-Portfolio/static/css/main.88f086ee.chunk.css.map",
+    "static/js/2.f685c213.chunk.js.LICENSE.txt": "/MBC20_REACT-Portfolio/static/js/2.f685c213.chunk.js.LICENSE.txt",
+    "static/media/Viv.01acf137.png": "/MBC20_REACT-Portfolio/static/media/Viv.01acf137.png",
+    "static/media/challenge.0de3120a.jpg": "/MBC20_REACT-Portfolio/static/media/challenge.0de3120a.jpg",
+    "static/media/game_app_screen design.7e13422b.png": "/MBC20_REACT-Portfolio/static/media/game_app_screen design.7e13422b.png",
+    "static/media/techReady_Homepage.ea1fc1d5.png": "/MBC20_REACT-Portfolio/static/media/techReady_Homepage.ea1fc1d5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1976e157.js",
+    "static/js/2.f685c213.chunk.js",
+    "static/css/main.88f086ee.chunk.css",
+    "static/js/main.274d2c2f.chunk.js"
+  ]
+}
