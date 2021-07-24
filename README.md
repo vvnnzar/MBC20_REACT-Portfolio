@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# MBC20-React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Monash Bootcamp Assignment 20 - React Portfolio
 
-## Available Scripts
+### About this project
 
-In the project directory, you can run:
+Vivianne Zara is an IT Senior Business Consultant, currently studying Full Stack Web Development at Monash Univeristy.
 
-### `npm start`
+This REACT portfolio is a personal respresentation of accomplishments to date as part of the bootcamp course design.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Project Link
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+https://vvnnzar.github.io/MBC20-React-Portfolio/
 
-### `npm test`
+### Screen layout and Design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+(![Vivianne Zara Portfolio Mobile Version](https://github.com/vvnnzar/MBC20-React-Portfolio/blob/main/vivzara-portfolio/public/assets/screen%20design/mobile.png))
 
-### `npm run build`
+(![Vivianne Zara Portfolio Laptop Version](https://github.com/vvnnzar/MBC20-React-Portfolio/blob/main/vivzara-portfolio/public/assets/screen%20design/laptop.png))
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Acknowledgements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This development was completed in part using the following online references:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Using the above information lets go back to our regex email example and look at it further:
 
-### `npm run eject`
+    https://youtu.be/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Pre requisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To view and modify code you will require installation of HTML and Code editor software such as Visual Code Studio.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Getting Started
 
-## Learn More
+    1. Install GITHib on your PC
+    2. Create a local project repository
+    3. Clone project repository using git clone
+    4. Initialise the project using command: git init
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    1. Application loads without error
+    2. Landing page describes roles using typescript
+    3. Hamburger menu navigation bar displays option home, about, portfolio and contact
+    4. On click of a menu link user system displays referenced page
+    5. Contact page displays 4 options email, LinkedIn, GitHub, Resume.
+    6. Click of LinkedIn or GitHub links will open a new browser tab and system will navigate to the respective website
+    5. Screen layout adjusts to suit mobile devices
 
-### Code Splitting
+### Code Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To update the project with latest code:
 
-### Analyzing the Bundle Size
+    1. Run command git status to ensure no conflict of changes
+    2. Run command git pull to get latest code
+    3. Stage files for checkin using command git add .
+    4. Commit files using command git commit -m "My commit message"
+    5. Push files to gitlab main branch using command git push
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Main Technologies Used
 
-### Making a Progressive Web App
+    REACT
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Versioning
 
-### Advanced Configuration
+    v1.0 21/07/2021
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    MIT
+    Vivianne Zara @ zara:Code 2021
